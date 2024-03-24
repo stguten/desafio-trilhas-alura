@@ -7,17 +7,10 @@
 Repositorio para os desafios do projeto Trilhas, voltado para a trilha de Backend
 
 ## Table of Contents
-
-- [Desafio Tilhas Inova (?)](#desafio-tilhas-inova-)
-  - [Descrição](#descrição)
-  - [Table of Contents](#table-of-contents)
-  - [Desafio 01](#desafio-01)
-  - [Desafio 02](#desafio-02)
-    - [**A Definir**](#a-definir)
-  - [Desafio 03](#desafio-03)
-    - [**A Definir**](#a-definir-1)
-  - [Desafio 04](#desafio-04)
-    - [**A Definir**](#a-definir-2)
+- [Desafio 01](#desafio-01)
+- [Desafio 02](#desafio-02)
+- [Desafio 03](#desafio-03)
+- [Desafio 04](#desafio-04)
 
 ## Desafio 01
 
