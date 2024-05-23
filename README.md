@@ -25,10 +25,11 @@ O Desafio 01 conta com 11 questões com dados fixos, não dinamicos.
 As respostas estão disponiveis na pasta [Desafio 01](https://github.com/stguten/desafio-trilhas-alura/tree/master/Desafio%2001)
 
 ## Desafio 02
-### **A Definir**
+Foi um deasfio bem chato de css, bem mais dificil que esse e que precisava mecher com forms.
 
 ## Desafio 03
-### **A Definir**
+Basicamente um portifolio, podia ser um SPA de marketing.
+As respostas estão disponiveis na pasta [Desafio 03](https://github.com/stguten/desafio-trilhas-alura/tree/master/Desafio%2003)
 
 ## Desafio 04
 ### **A Definir**

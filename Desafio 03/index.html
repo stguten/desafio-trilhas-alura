@@ -1,0 +1,68 @@
+<!-- Eae, pensei em colocar apocalipse nesse começo, mas nhe, ninguem tem senso de humor quebrado pra entender isso
+    então, vamos lá, o que temos aqui? 
+    1- Comentarios meme    
+    2- Marquee
+    3- Imagens de pessoas programando
+    4- Links para redes sociais
+    5- Texto de apresentação
+    6- Texto de rodapé
+    7- Links para outras páginas
+    e mais um monte de coisas, mas o que importa é que temos um padrão, e isso é bom, mas e se eu quiser mudar algo?
+    bem, eu teria que mudar em todas as páginas, e isso é chato, então, vamos fingir que nada aconteceu...
+    Alias, uma dica de serie boa é O Enigma Dos 3 Corpos, é uma ficção cientifica chinesa, muito boa, recomendo.
+--> 
+<!DOCTYPE html>
+<html lang="pt-br"><!-- Brazil mentioned -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title> <!-- hmm, interessante -->
+    <!-- reset.css? nunca nem vi... -->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <!-- poderia ser <li> mas nada que um justify content não resolva -->
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="habilidades.html">Habilidades</a>
+            <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <!-- ala meu nome, no meio tem o Almeida, mas eu particularmente não uso -->
+            <h1 class="apresentacao__conteudo__titulo">Gutemberg <strong class="titulo-destaque">Pinheiro
+                </strong></h1>
+            <!-- Apresentações são chatas, incrivelmente mesmo tendo experiencia plena em micro-serviços a maioria das empresas so responde com negativas.
+            nha! muita frescura... -->
+            <p class="apresentacao__conteudo__texto">Olá! Sou Gutemberg Pinheiro, desenvolvedor
+                Back-end com especialidade em Node.js, Docker e
+                Kubernets. Ajudo quem precisa e ainda faço um freelancer de comediante. Vamos Programar?</p>
+            <div class="apresentacao__links">
+                <!-- um github que ta aposentado e um linkedin pra gerar curriculo automatico, tem coisa melhor? -->
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/stguten">
+                    <img src="./assets/github.png">
+                    Github
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/guten/">
+                    <img src="./assets/linkedin.png">
+                    linkedin
+                </a>
+            </div>
+        </section>
+        <!-- A imagem é isso, um homem generico programando. Melhor que isso so 2 disso... -->
+        <img class="apresentacao__imagem" src="./assets/imagem.png" alt="Homem generico programando algo. Fonte: Depositphotos">
+    </main>
+    <footer class="rodape">
+        <!-- ♫ (Oh, here she comes) ♫ Watch out boy she'll ♫ chew you up ♫ (Oh, here she comes) ♫ She's a maneater ♫ -->
+        <p>Desenvolvido por <a href="https://www.youtube.com/watch?v=yRYFKcMa_Ek">StGuten</a>.</p>
+        <!-- Pra que um logo? texto simples é bem mais legal :) -->
+    </footer>
+</body>
+
+</html>
