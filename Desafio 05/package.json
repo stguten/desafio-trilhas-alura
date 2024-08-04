@@ -1,0 +1,16 @@
+{
+  "name": "guia-turistico-maranhao",
+  "version": "1.0.0",
+  "description": "Guia Turístico Online do Maranhão",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "sequelize": "^6.6.5",
+    "dotenv": "^10.0.0",
+    "cors": "^2.8.5"
+  }
+}

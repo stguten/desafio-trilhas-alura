@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #008080;
+    color: white;
+}
+
+#search {
+    display: flex;
+}
+
+#search input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#search button {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#destinos, #atrativos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.destino, .atrativo {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+}
+
+.destino img {
+    width: 100%;
+    height: auto;
+}
+
+#map {
+    height: 500px;
+    margin: 20px;
+}
